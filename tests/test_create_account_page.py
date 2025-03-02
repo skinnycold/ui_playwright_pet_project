@@ -5,6 +5,7 @@ from time import sleep
 def test_successful_registration(page):
     create_account_page = CreateAccountPage(page)
     create_account_page.open()
+    create_account_page.wait_full_load_page()
     create_account_page.agree_cookie()
     create_account_page.fill_first_name_field()
     create_account_page.fill_last_name_field()

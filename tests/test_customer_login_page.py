@@ -6,6 +6,8 @@ from pages.customer_login_page import CustomerLoginPage
 def test_successful_authorization(page):
     customer_login_page = CustomerLoginPage(page)
     customer_login_page.open()
+    customer_login_page.wait_full_load_page()
+    customer_login_page.agree_cookie()
     customer_login_page.fill_email_field()
     customer_login_page.fill_password_field()
     customer_login_page.press_sign_in_button()
@@ -14,6 +16,8 @@ def test_successful_authorization(page):
 def test_required_fields(page):
     customer_login_page = CustomerLoginPage(page)
     customer_login_page.open()
+    customer_login_page.wait_full_load_page()
+    customer_login_page.agree_cookie()
     customer_login_page.wait_full_load_page()
     customer_login_page.fill_email_field(' ')
     customer_login_page.fill_password_field('')
@@ -26,6 +30,8 @@ def test_required_fields(page):
 def test_unsuccessful_authorization(page, email, password):
     customer_login_page = CustomerLoginPage(page)
     customer_login_page.open()
+    customer_login_page.wait_full_load_page()
+    customer_login_page.agree_cookie()
     customer_login_page.fill_email_field(email)
     customer_login_page.fill_password_field(password)
     customer_login_page.press_sign_in_button()
