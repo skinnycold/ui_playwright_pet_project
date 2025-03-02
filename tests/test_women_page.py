@@ -45,5 +45,17 @@ def test_category(page):
     women_tops_page = WomenTopsPage(page)
     women_tops_page.open()
     women_tops_page.agree_cookie()
-    women_tops_page.base_product_page.press_category_filter()
-    sleep(4)
+    women_tops_page.check_category_jackets_filter()
+
+def test_size(page):
+    women_tops_page = WomenTopsPage(page)
+    women_tops_page.open()
+    women_tops_page.agree_cookie()
+    women_tops_page.check_size_xs_filter()
+    sleep(5)
+
+def test_price(page):
+    women_tops_page = WomenTopsPage(page)
+    women_tops_page.open()
+    women_tops_page.agree_cookie()
+    women_tops_page.check_price_20_29_filter()

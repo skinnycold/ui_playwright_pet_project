@@ -9,6 +9,7 @@ class ProductPageLocators:
         self.list_mode_button_loc = page.get_by_role('link', name='#mode-list')
         self.sort_selector_loc = page.locator('#sorter').locator('nth=0')
         self.limiter_selector_loc = page.locator('#limiter').locator('nth=1')
+        self.current_filter_box_loc = page.locator('.filter-current')
 
         self.category_filter_loc = page.get_by_role('tab', name='Category')
         self.style_filter_loc = page.get_by_role('tab', name='Style')
