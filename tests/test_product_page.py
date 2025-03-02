@@ -1,1 +1,0 @@
-from pages.women_tops_page import WomenTopsPage

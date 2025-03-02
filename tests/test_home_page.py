@@ -9,13 +9,21 @@ def test_home_page(page):
     home_page = HomePage(page)
     home_page.open()
     home_page.check_title('Home Page')
+    home_page.check_h1('Home Page')
 
 @pytest.mark.parametrize('page_method, title , h1_title', data_navigation)
 def test_navigation(page, page_method, title, h1_title):
     home_page = HomePage(page)
     home_page.open()
+    home_page.agree_cookie()
     getattr(home_page, page_method)()
-    home_page.wait_full_load_page()
     home_page.check_title(title)
     home_page.check_h1(h1_title)
+
+def test_gear_bugs(page):
+    home_page = HomePage(page)
+    home_page.open()
+    home_page.agree_cookie()
+    home_page.press_gear_bags_button()
+    sleep(3)
 
