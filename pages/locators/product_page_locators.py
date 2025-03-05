@@ -15,6 +15,7 @@ class ProductPageLocators:
         self.style_filter_loc = page.get_by_role('tab', name='Style')
         self.size_filter_loc = page.get_by_role('tab', name='Size')
         self.climate_filter_loc = page.get_by_role('tab', name='Climate')
+        self.color_filter_loc = page.get_by_role('tab', name='Color')
         self.eco_collection_filter_loc = page.get_by_role('tab', name='Eco Collection')
         self.erin_recommends_filter_loc = page.get_by_role('tab', name='Erin Recommends')
         self.material_filter_loc = page.get_by_role('tab', name='Material')

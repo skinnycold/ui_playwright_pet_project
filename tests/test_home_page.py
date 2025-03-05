@@ -2,7 +2,7 @@ from time import sleep
 
 from pages.home_page import HomePage
 import pytest
-from test_data.home_page_data import data_navigation
+from data.home_page_data import data_navigation
 
 
 def test_home_page(page):
@@ -19,11 +19,4 @@ def test_navigation(page, page_method, title, h1_title):
     getattr(home_page, page_method)()
     home_page.check_title(title)
     home_page.check_h1(h1_title)
-
-def test_gear_bugs(page):
-    home_page = HomePage(page)
-    home_page.open()
-    home_page.agree_cookie()
-    home_page.press_gear_bags_button()
-    sleep(3)
 

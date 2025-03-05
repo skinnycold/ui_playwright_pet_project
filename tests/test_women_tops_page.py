@@ -4,6 +4,7 @@ from pages.women_tops_page import WomenTopsPage
 from pages.enums.enums import SortOption
 from pages.enums.enums import LimiterOption
 from playwright.sync_api import Page
+from data.women_tops_page_data import data_filters
 import pytest
 
 @pytest.mark.parametrize("sort_option",(SortOption.PRICE, SortOption.POSITION, SortOption.PRODUCT_NAME))
@@ -41,21 +42,16 @@ def test_sorting_and_limiter(page, sort_option, limiter_option):
     women_tops_page.base_product_page.check_sorting(sort_option)
     sleep(3)
 
-def test_category(page):
+@pytest.mark.parametrize(
+    "category_filter_locator, subcategory_filter_locator, filter_name, url_parameter",
+    data_filters
+)
+def test_filters(
+        page,category_filter_locator, subcategory_filter_locator, filter_name, url_parameter
+):
     women_tops_page = WomenTopsPage(page)
     women_tops_page.open()
     women_tops_page.agree_cookie()
-    women_tops_page.check_category_jackets_filter()
+    women_tops_page.press_filter(category_filter_locator, subcategory_filter_locator)
+    women_tops_page.check_filter(url_parameter, filter_name)
 
-def test_size(page):
-    women_tops_page = WomenTopsPage(page)
-    women_tops_page.open()
-    women_tops_page.agree_cookie()
-    women_tops_page.check_size_xs_filter()
-    sleep(5)
-
-def test_price(page):
-    women_tops_page = WomenTopsPage(page)
-    women_tops_page.open()
-    women_tops_page.agree_cookie()
-    women_tops_page.check_price_20_29_filter()

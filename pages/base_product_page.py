@@ -1,5 +1,6 @@
 from time import sleep
 
+import allure
 from playwright.sync_api import Page, expect
 from pages.base_page import BasePage
 from pages.locators.product_page_locators import ProductPageLocators
@@ -14,21 +15,33 @@ class ProductPage(BasePage):
         super().__init__(page)
         self.product_page_locators = ProductPageLocators(self.page)
 
+    @allure.step("Получаем список цен")
     def get_prices(self):
-         return [float(price.inner_text().replace('$', '')) for price in self.product_page_locators.list_of_prices_loc.all()]
+        list_prices = [float(price.inner_text().replace('$', '')) for price in self.product_page_locators.list_of_prices_loc.all()]
+        allure.attach(f"{list_prices}")
+        return list_prices
 
+    @allure.step("Получаем список названий")
     def get_products_names(self):
-        return [name.inner_text() for name in self.product_page_locators.list_of_products_names_loc.all()]
+        list_product_names = [name.inner_text() for name in self.product_page_locators.list_of_products_names_loc.all()]
+        allure.attach(f"{list_product_names}")
+        return list_product_names
 
+    @allure.step("Получаем количество товаров")
     def get_items(self):
-        return self.product_page_locators.list_of_items_loc.all()
+        goods = self.product_page_locators.list_of_items_loc.all()
+        allure.attach(f"{len(goods)}")
+        return goods
 
+    @allure.step("Применяем сортировку товаров")
     def set_sort_selector(self, select_option: SortOption):
         self.product_page_locators.sort_selector_loc.select_option(select_option.value)
 
+    @allure.step("Устанавливаем количество отображаемых товаров на странице")
     def set_limiter_selector(self, select_option: LimiterOption):
         self.product_page_locators.limiter_selector_loc.select_option(select_option.value)
 
+    @allure.step("Проверяем сортировку товаров")
     def check_sorting(self, select_option: SortOption):
         default_prices_list = self.get_prices()
         default_products_names_list = self.get_products_names()
@@ -67,6 +80,7 @@ class ProductPage(BasePage):
                 Отсортированный список: {sorted_products_names}
             """
 
+    @allure.step("Проверяем количество отображаемых товаров")
     def check_item_limiter(self, select_option: LimiterOption):
         if select_option == LimiterOption.SET_12:
             self.set_limiter_selector(select_option)
