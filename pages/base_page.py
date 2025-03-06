@@ -9,7 +9,6 @@ class BasePage:
     response = None
     cookie_popup = None
     locators = None
-    product_page_locators = None
 
     def __init__(self, page: Page):
         self.page = page

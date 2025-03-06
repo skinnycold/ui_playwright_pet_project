@@ -3,7 +3,7 @@ from time import sleep
 import allure
 from playwright.sync_api import Page, expect
 from pages.base_page import BasePage
-from pages.base_product_page import ProductPage
+from pages.base_products_page import BaseProductsPages
 from pages.locators.women_tops_page_locators import WomenTopsPageLocators
 import re
 
@@ -12,7 +12,7 @@ class WomenTopsPage(BasePage):
 
     def __init__(self, page: Page):
         super().__init__(page)
-        self.base_product_page = ProductPage(page)
+        self.base_products_pages = BaseProductsPages(page)
         self.locators = WomenTopsPageLocators(page)
 
 
@@ -20,9 +20,9 @@ class WomenTopsPage(BasePage):
         with allure.step("Применяем фильтр:"):
             # getattr(self.base_product_page.product_page_locators, category_filter_locator).wait_for(state='attached')
             allure.attach(
-                f"{getattr(self.base_product_page.product_page_locators, category_filter_locator).inner_text()}"
+                f"{getattr(self.base_products_pages.base_products_page_locators, category_filter_locator).inner_text()}"
             )
-            getattr(self.base_product_page.product_page_locators, category_filter_locator).click()
+            getattr(self.base_products_pages.base_products_page_locators, category_filter_locator).click()
             # getattr(self.locators, subcategory_filter_locator).wait_for(state='attached')
             allure.attach(
                 f"{getattr(self.locators, subcategory_filter_locator).inner_text()}"
@@ -32,4 +32,9 @@ class WomenTopsPage(BasePage):
     @allure.step("Проверяем примененный фильтр")
     def check_filter(self, url_parameter, filter_name):
         expect(self.page).to_have_url(re.compile(url_parameter))
-        expect(self.base_product_page.product_page_locators.current_filter_box_loc).to_have_text(re.compile(filter_name))
+        expect(self.base_products_pages.base_products_page_locators.current_filter_box_loc).to_have_text(re.compile(filter_name))
+
+    """
+    добавить проверки по изменению количества товаров
+    """
+
