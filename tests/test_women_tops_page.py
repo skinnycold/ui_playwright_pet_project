@@ -4,7 +4,7 @@ from data.women_tops_page_data import data_filters
 import pytest
 
 
-@pytest.mark.regression
+
 @pytest.mark.parametrize("sort_option", (SortOption.PRICE, SortOption.POSITION, SortOption.PRODUCT_NAME))
 def test_sorting(women_tops_page, sort_option):
     """
@@ -15,7 +15,7 @@ def test_sorting(women_tops_page, sort_option):
     women_tops_page.base_products_pages.check_sorting(sort_option)
 
 
-@pytest.mark.regression
+
 @pytest.mark.parametrize("limiter_option", (LimiterOption.SET_12, LimiterOption.SET_24, LimiterOption.SET_36))
 def test_limiter_items(women_tops_page, limiter_option):
     """
@@ -26,7 +26,7 @@ def test_limiter_items(women_tops_page, limiter_option):
     women_tops_page.base_products_pages.check_item_limiter(limiter_option)
 
 
-@pytest.mark.regression
+
 @pytest.mark.parametrize(
     "sort_option, limiter_option", [
         (SortOption.PRICE, LimiterOption.SET_12),
@@ -50,7 +50,7 @@ def test_sorting_and_limiter(women_tops_page, sort_option, limiter_option):
     women_tops_page.base_products_pages.check_sorting(sort_option)
 
 
-@pytest.mark.regression
+
 @pytest.mark.parametrize(
     "category_filter_locator, subcategory_filter_locator, filter_name, url_parameter",
     data_filters
@@ -67,7 +67,7 @@ def test_filters(
     women_tops_page.check_filter(url_parameter, filter_name)
 
 
-@pytest.mark.regression
+
 def test_list_view(women_tops_page):
     """
     Проверяет функциональность изменения вида отображаемых товаров (Grid, List)

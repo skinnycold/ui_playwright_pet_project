@@ -4,7 +4,7 @@ class BaseProductsPageLocators:
     def __init__(self, page: Page):
         self.list_of_prices_loc = page.locator('//*[@data-price-type="finalPrice"]/span')
         self.list_of_products_names_loc = page.locator('.product.name.product-item-name')
-        self.list_of_items_loc = page.locator('.product-item-info') # было .item.product.product-item
+        self.list_of_items_loc = page.locator('.item.product.product-item') # было .item.product.product-item
         self.add_to_card_buttons = page.locator('.action.tocart.primary')
         self.size_of_good_buttons = page.locator('[option-label="XS"]')
         self.grid_mode_button_loc = page.locator('mode-grid').first

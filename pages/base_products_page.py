@@ -45,6 +45,7 @@ class BaseProductsPages(BasePage):
         """
         goods = self.base_products_page_locators.list_of_items_loc.all()
         allure.attach(f"{len(goods)}")
+        print(goods)
         return goods
 
     @allure.step("Применяем сортировку товаров")

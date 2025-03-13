@@ -134,6 +134,7 @@ class ProductPage(BasePage):
         Проверяет отображение сообщения об обязательности установленного рейтинга
         :param error_text: Текст ошибки
         """
+        self.product_page_locators.rating_required_error_loc.wait_for(state='visible')
         expect(self.product_page_locators.rating_required_error_loc).to_have_text(error_text)
 
     @allure.step("Валидируем обязательность заполнения поля nickname")

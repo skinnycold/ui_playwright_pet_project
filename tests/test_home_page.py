@@ -1,7 +1,7 @@
 import pytest
 from data.home_page_data import data_navigation
 
-@pytest.mark.regression
+
 @pytest.mark.parametrize('page_method, title , h1_title', data_navigation)
 def test_navigation(home_page, page_method, title, h1_title):
     """
