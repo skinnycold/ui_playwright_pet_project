@@ -167,7 +167,7 @@ class ProductPage(BasePage):
         """
         expect(self.product_page_locators.review_required_error_loc).to_have_text(error_text)
 
-    @allure.step("Проверяем сообщение в информационном алерте")
+    @allure.step("Проверяем сообщение в информационном Алерте")
     def check_alert_message(self, alert_text: str = 'You added'):
         """
         Проверяет текст в информационном алерте
