@@ -1,9 +1,12 @@
-from pages.base_page import BasePage
-from playwright.sync_api import Page, expect
-import re
-from pages.locators.customer_login_page_locators import CustomerLoginPageLocators
-from utills.faker_generator import FakerGenerator
 import allure
+import re
+from playwright.sync_api import Page, expect
+from utills.faker_generator import FakerGenerator
+
+from pages.base_page import BasePage
+from pages.locators.customer_login_page_locators import CustomerLoginPageLocators
+
+
 
 class CustomerLoginPage(BasePage):
     current_url = "/customer/account/login/"

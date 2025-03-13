@@ -27,3 +27,6 @@ class BaseProductsPageLocators:
         self.performance_fabric_filter_loc = page.get_by_role('tab', name='Performance Fabric')
         self.price_filter_loc = page.get_by_role('tab', name='Price')
         self.sale_filter_loc = page.get_by_role('tab', name='Sale')
+        self.cart_loc = page.locator('.action.showcart')
+        self.cart_proceed_to_checkout_loc = page.locator('#top-cart-btn-checkout')
+        self.information_alert_loc = page.locator('[role="alert"]').first

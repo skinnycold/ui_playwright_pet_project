@@ -1,7 +1,10 @@
+import allure
+from playwright.sync_api import Page
+
 from pages.base_page import BasePage
 from pages.locators.home_page_locators import HomePageLocators
-from playwright.sync_api import Page, expect
-import allure
+
+
 class HomePage(BasePage):
     current_url = ''
 

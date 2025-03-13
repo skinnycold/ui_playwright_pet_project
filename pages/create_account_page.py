@@ -1,10 +1,11 @@
+import re
 import allure
 from playwright.sync_api import Page, expect
+
 from pages.base_page import BasePage
 from pages.locators.create_account_page_locators import CreateAccountPageLocators
-import re
 from utills.faker_generator import FakerGenerator
-import allure
+
 
 
 class CreateAccountPage(BasePage):
@@ -16,19 +17,19 @@ class CreateAccountPage(BasePage):
         self.locators = CreateAccountPageLocators(page)
 
     @allure.step("Заполняем поле: Имя")
-    def fill_first_name_field(self, first_name: str = fg.first_name):
+    def fill_first_name_field(self, first_name: str = fg.generate_first_name()):
         self.locators.first_name_field_loc.fill(first_name)
 
     @allure.step("Заполняем поле: Фамилия")
-    def fill_last_name_field(self, last_name: str = fg.last_name):
+    def fill_last_name_field(self, last_name: str = fg.generate_last_name()):
         self.locators.last_name_field_loc.fill(last_name)
 
     @allure.step("Заполняем поле: Email")
-    def fill_email_field(self, email=fg.email):
+    def fill_email_field(self, email=fg.generate_email()):
         self.locators.email_field_loc.fill(email)
 
     @allure.step("Заполняем поле: Пароль")
-    def fill_password_field(self, password: str = fg.password):
+    def fill_password_field(self, password: str = fg.generate_password()):
         self.locators.password_field_loc.fill(password)
 
     @allure.step("Заполняем поле: Подтверждение пароля")

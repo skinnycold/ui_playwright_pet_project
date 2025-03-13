@@ -1,5 +1,3 @@
-
-
 data_filters = [
     ("category_filter_loc", "category_jackets_filter_loc", "Jackets", "cat=23"),
     ("category_filter_loc", "category_hoodies_sweatshirts_filter_loc", "Hoodies & Sweatshirts", "cat=24"),
