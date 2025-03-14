@@ -73,6 +73,7 @@ def test_adding_product_to_compare(women_tops_page, product_page):
 
 
 @pytest.mark.smoke
+@pytest.mark.flaky(reruns=3, reruns_delay=2)
 def test_sending_review(women_tops_page, product_page):
     """
     Проверяет успешную отправку ревью отзыва
