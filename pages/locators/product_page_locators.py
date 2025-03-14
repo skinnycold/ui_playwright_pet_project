@@ -18,4 +18,4 @@ class ProductPageLocators:
         self.nickname_required_error_loc = page.locator('#nickname_field-error')
         self.summary_required_error_loc = page.locator("[id='summary_field-error']")
         self.review_required_error_loc = page.locator('[id="review_field-error"]')
-        self.alert_loc = page.locator('[role="alert"]').first
+        self.alert_loc = page.locator('[class="messages"]').first
