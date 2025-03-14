@@ -1,10 +1,11 @@
 import allure
 from playwright.sync_api import Page, expect
 from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
-
+from utills.faker_generator import FakerGenerator
 
 class BasePage:
     url = 'https://magento.softwaretestingboard.com/'
+    fg = FakerGenerator()
     current_url = None
     response = None
     cookie_popup = None
@@ -12,6 +13,15 @@ class BasePage:
 
     def __init__(self, page: Page):
         self.page = page
+        self.email = self.fg.generate_email()
+        self.password = self.fg.generate_password()
+        self.first_name = self.fg.generate_first_name()
+        self.last_name = self.fg.generate_last_name()
+        self.street_address = self.fg.generate_street_name()
+        self.city = self.fg.generate_city()
+        self.postal_code = self.fg.generate_postal_code()
+        self.phone_number = self.fg.generate_phone_number()
+        self.summary = self.fg.generate_text(20)
 
     def open(self):
         """

@@ -17,23 +17,28 @@ class CreateAccountPage(BasePage):
         self.locators = CreateAccountPageLocators(page)
 
     @allure.step("Заполняем поле: Имя")
-    def fill_first_name_field(self, first_name: str = fg.generate_first_name()):
+    def fill_first_name_field(self, first_name: str = None):
+        first_name = first_name or self.first_name
         self.locators.first_name_field_loc.fill(first_name)
 
     @allure.step("Заполняем поле: Фамилия")
-    def fill_last_name_field(self, last_name: str = fg.generate_last_name()):
+    def fill_last_name_field(self, last_name: str = None):
+        last_name = last_name or self.last_name
         self.locators.last_name_field_loc.fill(last_name)
 
     @allure.step("Заполняем поле: Email")
-    def fill_email_field(self, email=fg.generate_email()):
+    def fill_email_field(self, email: str = None):
+        email = email or self.email
         self.locators.email_field_loc.fill(email)
 
     @allure.step("Заполняем поле: Пароль")
-    def fill_password_field(self, password: str = fg.generate_password()):
+    def fill_password_field(self, password: str = None):
+        password = password or self.password
         self.locators.password_field_loc.fill(password)
 
     @allure.step("Заполняем поле: Подтверждение пароля")
-    def fill_confirm_password_field(self, confirm_password: str = fg.password):
+    def fill_confirm_password_field(self, confirm_password: str = None):
+        confirm_password = confirm_password or self.password
         self.locators.confirm_password_field_loc.fill(confirm_password)
 
     @allure.step("Нажимаем на кнопку: Create account")
@@ -49,7 +54,8 @@ class CreateAccountPage(BasePage):
         expect(self.locators.confirm_password_error_loc).to_have_text('This is a required field.')
 
     @allure.step("Проверяем успешную регистрацию")
-    def check_successful_registration(self, email: str = fg.email):
+    def check_successful_registration(self, email: str = None):
+        email = email or self.email
         expect(self.locators.success_registration_alert_loc).to_have_text(
             'Thank you for registering with Main Website Store.')
         expect(self.locators.personal_information_box_loc).to_have_text(re.compile(email))

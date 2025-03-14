@@ -1,3 +1,5 @@
+from time import sleep
+
 import pytest
 
 @pytest.mark.smoke
@@ -38,16 +40,17 @@ def test_required_fields(women_tops_page, base_product_pages, checkout_page):
     base_product_pages.press_on_the_add_to_card_button()
     base_product_pages.check_information_alert('You added')
     base_product_pages.press_proceed_to_checkout_button()
-    checkout_page.fill_email_field('')
-    checkout_page.fill_first_name_field('')
-    checkout_page.fill_last_name_field('')
-    checkout_page.fill_street_address_field('')
-    checkout_page.fill_city_field('')
+    checkout_page.fill_email_field(' ')
+    checkout_page.fill_first_name_field(' ')
+    checkout_page.fill_last_name_field(' ')
+    checkout_page.fill_street_address_field(' ')
+    checkout_page.fill_city_field(' ')
     checkout_page.set_state_select()
-    checkout_page.fill_postal_code_field('')
-    checkout_page.fill_phone_number_field('')
+    checkout_page.fill_postal_code_field(' ')
+    checkout_page.fill_phone_number_field(' ')
     checkout_page.set_shipping_method()
     checkout_page.press_next_button()
+    sleep(10)
     checkout_page.check_email_required_message()
     checkout_page.check_first_name_required_message()
     checkout_page.check_last_name_required_message()

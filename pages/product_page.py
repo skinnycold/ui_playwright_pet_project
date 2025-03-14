@@ -96,27 +96,30 @@ class ProductPage(BasePage):
             raise ValueError('Введи от 1 до 5')
 
     @allure.step("Заполняем поле nickname")
-    def fill_nickname_field(self, nickname: str = fg.generate_first_name()):
+    def fill_nickname_field(self, nickname: str = None):
         """
         Заполняет поле nickname
         :param nickname: Nickname
         """
+        nickname = nickname or self.first_name
         self.product_page_locators.nickname_field_loc.fill(nickname)
 
     @allure.step("Заполняем поле summary")
-    def fill_summary_field(self, summary: str = fg.generate_text(20)):
+    def fill_summary_field(self, summary: str = None):
         """
         Заполняет поле Summary
         :param summary: Summary
         """
+        summary = summary or self.summary
         self.product_page_locators.summary_field_loc.fill(summary)
 
     @allure.step("Заполняем поле review")
-    def fill_review_field(self, review: str = fg.generate_text(100)):
+    def fill_review_field(self, review: str = None):
         """
         Заполняет поле Review
         :param review: Review
         """
+        review = review or self.summary
         self.product_page_locators.review_field_loc.fill(review)
 
     @allure.step("Нажимаем на кнопку submit review")
