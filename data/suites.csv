@@ -1,46 +1,445 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
 "
-    Проверяет попытки аутентификации с корректным email и неверным паролем, и наоборот
-    ","22090","test_unsuccessful_authorization[chromium-qrfqw@mail.com-werty1@A]","tests","Fri Mar 14 18:25:38 UTC 2025","passed","Fri Mar 14 18:26:00 UTC 2025","","test_customer_login_page","",""
+    Проверяет функциональность фильтрации товаров
+    ","22299","test_filters[chromium-style_filter_loc-style_heavy_duty_filter_loc-Heavy Duty-style_general=121]","tests","Fri Mar 14 19:08:08 UTC 2025","passed","Fri Mar 14 19:08:31 UTC 2025","","test_women_tops_page","",""
 "
-    Проверяет успешное добавление товара в корзину с продуктовой страницы
-    ","23160","test_full_flow_adding_goods[chromium]","tests","Fri Mar 14 18:26:04 UTC 2025","passed","Fri Mar 14 18:26:27 UTC 2025","","test_women_tops_page","",""
+    Проверяет навигацию по страницам приложения
+    ","23972","test_navigation[chromium-press_women_tops_tees_button-Tees - Tops - Women-Tees]","tests","Fri Mar 14 19:03:51 UTC 2025","passed","Fri Mar 14 19:04:15 UTC 2025","","test_home_page","",""
 "
-    Проверяет успешную регистрацию пользователя
-    ","24899","test_successful_registration[chromium]","tests","Fri Mar 14 18:24:53 UTC 2025","passed","Fri Mar 14 18:25:18 UTC 2025","","test_create_account_page","",""
+    Проверяет функциональность фильтрации товаров
+    ","22395","test_filters[chromium-color_filter_loc-color_black_filter_loc-Black-color=49]","tests","Fri Mar 14 19:10:29 UTC 2025","passed","Fri Mar 14 19:10:51 UTC 2025","","test_women_tops_page","",""
 "
-    Проверяет добавление товара в корзину без установленных параметрах размера и цвета
-    ","21931","test_adding_product_without_size_and_color[chromium]","tests","Fri Mar 14 18:25:40 UTC 2025","passed","Fri Mar 14 18:26:02 UTC 2025","","test_product_page","",""
+    Проверяет функциональность фильтрации товаров
+    ","22153","test_filters[chromium-pattern_filter_loc-pattern_checked_filter_loc-Checked-pattern=193]","tests","Fri Mar 14 19:14:25 UTC 2025","passed","Fri Mar 14 19:14:47 UTC 2025","","test_women_tops_page","",""
 "
-    Проверяет валидацию обязательных полей на странице регистрации пользователя
-    ","21083","test_required_fields[chromium]","tests","Fri Mar 14 18:25:18 UTC 2025","passed","Fri Mar 14 18:25:40 UTC 2025","","test_create_account_page","",""
+    Проверяет функциональность фильтрации товаров
+    ","22575","test_filters[chromium-style_filter_loc-style_1_4_zip_filter_loc-\xbc zip-style_general=127]","tests","Fri Mar 14 19:06:34 UTC 2025","passed","Fri Mar 14 19:06:57 UTC 2025","","test_women_tops_page","",""
 "
-    Проверяет попытку регистрации пользователя с существующим email
-    ","23725","test_same_email_registration[chromium]","tests","Fri Mar 14 18:24:53 UTC 2025","passed","Fri Mar 14 18:25:17 UTC 2025","","test_create_account_page","",""
+    Проверяет навигацию по страницам приложения
+    ","21728","test_navigation[chromium-press_sign_in_button-Customer Login-Customer Login]","tests","Fri Mar 14 19:05:28 UTC 2025","passed","Fri Mar 14 19:05:50 UTC 2025","","test_home_page","",""
 "
-    Проверяет добавление товара в раздел сравнения товаров
-    ","22674","test_adding_product_to_compare[chromium]","tests","Fri Mar 14 18:25:50 UTC 2025","passed","Fri Mar 14 18:26:13 UTC 2025","","test_product_page","",""
+    Проверяет функциональность фильтрации товаров
+    ","22148","test_filters[chromium-style_filter_loc-style_insulated_filter_loc-Insulated-style_general=116]","tests","Fri Mar 14 19:06:39 UTC 2025","passed","Fri Mar 14 19:07:01 UTC 2025","","test_women_tops_page","",""
 "
-    Проверяет обязательные поля в разделе ревью
-    ","21522","test_sending_review_without_required_fields[chromium]","tests","Fri Mar 14 18:26:02 UTC 2025","passed","Fri Mar 14 18:26:23 UTC 2025","","test_product_page","",""
+    Проверяет навигацию по страницам приложения
+    ","22839","test_navigation[chromium-press_women_tops_bras_tanks_button-Bras & Tanks - Tops - Women-Bras & Tanks]","tests","Fri Mar 14 19:04:15 UTC 2025","passed","Fri Mar 14 19:04:38 UTC 2025","","test_home_page","",""
 "
-    Проверяет успешную отправку ревью отзыва
-    ","36490","test_sending_review[chromium]","tests","Fri Mar 14 18:26:00 UTC 2025","broken","Fri Mar 14 18:26:36 UTC 2025","","test_product_page","",""
+    Проверяет функциональность фильтрации товаров
+    ","22287","test_filters[chromium-performance_fabric_filter_loc-performance_fabric_yes_filter_loc-Yes-performance_fabric=1]","tests","Fri Mar 14 19:14:47 UTC 2025","passed","Fri Mar 14 19:15:09 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет навигацию по страницам приложения
+    ","23085","test_navigation[chromium-press_gear_button-Gear-Gear]","tests","Fri Mar 14 19:02:19 UTC 2025","passed","Fri Mar 14 19:02:42 UTC 2025","","test_home_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22558","test_filters[chromium-color_filter_loc-color_green_filter_loc-Green-color=53]","tests","Fri Mar 14 19:11:59 UTC 2025","passed","Fri Mar 14 19:12:21 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет навигацию по страницам приложения
+    ","22839","test_navigation[chromium-press_gear_watches_button-Watches - Gear-Watches]","tests","Fri Mar 14 19:03:29 UTC 2025","passed","Fri Mar 14 19:03:51 UTC 2025","","test_home_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22742","test_filters[chromium-size_filter_loc-size_s_filter_loc-S-size=167]","tests","Fri Mar 14 19:10:40 UTC 2025","passed","Fri Mar 14 19:11:03 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22218","test_filters[chromium-size_filter_loc-size_l_filter_loc-L-size=169]","tests","Fri Mar 14 19:09:15 UTC 2025","passed","Fri Mar 14 19:09:37 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22600","test_filters[chromium-color_filter_loc-color_red_filter_loc-Red-color=58]","tests","Fri Mar 14 19:12:11 UTC 2025","passed","Fri Mar 14 19:12:34 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22738","test_filters[chromium-size_filter_loc-size_xs_filter_loc-XS-size=166]","tests","Fri Mar 14 19:10:18 UTC 2025","passed","Fri Mar 14 19:10:40 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","21963","test_filters[chromium-climate_filter_loc-climate_all_weather_filter_loc-All-Weather-climate=201]","tests","Fri Mar 14 19:10:00 UTC 2025","passed","Fri Mar 14 19:10:22 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет навигацию по страницам приложения
+    ","24691","test_navigation[chromium-press_men_tops_button-Tops - Men-Tops]","tests","Fri Mar 14 19:02:43 UTC 2025","passed","Fri Mar 14 19:03:07 UTC 2025","","test_home_page","",""
 "
     Проверяет валидацию обязательных полей на странице оплаты
-    ","25310","test_required_fields[chromium]","tests","Fri Mar 14 18:25:25 UTC 2025","passed","Fri Mar 14 18:25:50 UTC 2025","","test_checkout_page","",""
+    ","25422","test_required_fields[chromium]","tests","Fri Mar 14 19:02:30 UTC 2025","passed","Fri Mar 14 19:02:55 UTC 2025","","test_checkout_page","",""
 "
-    Проверяет попытки аутентификации с корректным email и неверным паролем, и наоборот
-    ","22542","test_unsuccessful_authorization[chromium-testtesttest112@mail.com-qrfqw@1A]","tests","Fri Mar 14 18:25:15 UTC 2025","passed","Fri Mar 14 18:25:38 UTC 2025","","test_customer_login_page","",""
+    Проверяет навигацию по страницам приложения
+    ","24874","test_navigation[chromium-press_men_bottoms_shorts_button-Shorts - Bottoms - Men-Shorts]","tests","Fri Mar 14 19:01:54 UTC 2025","passed","Fri Mar 14 19:02:19 UTC 2025","","test_home_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22819","test_filters[chromium-material_filter_loc-material_jersey_filter_loc-Jersey-material=146]","tests","Fri Mar 14 19:13:05 UTC 2025","passed","Fri Mar 14 19:13:28 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","23013","test_filters[chromium-category_filter_loc-category_hoodies_sweatshirts_filter_loc-Hoodies & Sweatshirts-cat=24]","tests","Fri Mar 14 19:05:31 UTC 2025","passed","Fri Mar 14 19:05:54 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22250","test_filters[chromium-style_filter_loc-style_reversible_filter_loc-Reversible-style_general=129]","tests","Fri Mar 14 19:07:19 UTC 2025","passed","Fri Mar 14 19:07:42 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность сортировки и изменения видимого количества товаров на странице
+    ","24509","test_sorting_and_limiter[chromium-SortOption.PRODUCT_NAME-LimiterOption.SET_36]","tests","Fri Mar 14 19:09:05 UTC 2025","passed","Fri Mar 14 19:09:29 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22225","test_filters[chromium-style_filter_loc-style_tee_filter_loc-Tee-style_general=135]","tests","Fri Mar 14 19:08:49 UTC 2025","passed","Fri Mar 14 19:09:11 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет навигацию по страницам приложения
+    ","24189","test_navigation[chromium-press_women_bottoms_pants_button-Pants - Bottoms - Women-Pants]","tests","Fri Mar 14 19:05:01 UTC 2025","passed","Fri Mar 14 19:05:25 UTC 2025","","test_home_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22159","test_filters[chromium-material_filter_loc-material_cooltech_filter_loc-CoolTech\u2122-material=155]","tests","Fri Mar 14 19:14:03 UTC 2025","passed","Fri Mar 14 19:14:25 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет добавление товара в раздел сравнения товаров
+    ","22967","test_adding_product_to_compare[chromium]","tests","Fri Mar 14 19:07:18 UTC 2025","passed","Fri Mar 14 19:07:41 UTC 2025","","test_product_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22175","test_filters[chromium-color_filter_loc-color_white_filter_loc-White-color=59]","tests","Fri Mar 14 19:12:34 UTC 2025","passed","Fri Mar 14 19:12:56 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет навигацию по страницам приложения
+    ","22423","test_navigation[chromium-press_training_video_download_button-Video Download - Training-Video Download]","tests","Fri Mar 14 19:04:14 UTC 2025","passed","Fri Mar 14 19:04:36 UTC 2025","","test_home_page","",""
+"
+    Проверяет функциональность сортировки и изменения видимого количества товаров на странице
+    ","24263","test_sorting_and_limiter[chromium-SortOption.PRODUCT_NAME-LimiterOption.SET_24]","tests","Fri Mar 14 19:08:41 UTC 2025","passed","Fri Mar 14 19:09:05 UTC 2025","","test_women_tops_page","",""
 "
     Проверяет валидацию обязательных полей на странице аутентификации
-    ","21752","test_required_fields[chromium]","tests","Fri Mar 14 18:24:53 UTC 2025","passed","Fri Mar 14 18:25:15 UTC 2025","","test_customer_login_page","",""
+    ","20949","test_required_fields[chromium]","tests","Fri Mar 14 19:04:25 UTC 2025","passed","Fri Mar 14 19:04:46 UTC 2025","","test_customer_login_page","",""
 "
-    Проверяет успешную аутентификацию
-    ","22384","test_successful_authorization[chromium]","tests","Fri Mar 14 18:25:17 UTC 2025","passed","Fri Mar 14 18:25:40 UTC 2025","","test_customer_login_page","",""
+    Проверяет функциональность фильтрации товаров
+    ","22368","test_filters[chromium-material_filter_loc-material_polyester_filter_loc-Polyester-material=38]","tests","Fri Mar 14 19:13:12 UTC 2025","passed","Fri Mar 14 19:13:35 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность сортировки
+    ","21682","test_sorting[chromium-SortOption.PRICE]","tests","Fri Mar 14 19:08:40 UTC 2025","passed","Fri Mar 14 19:09:02 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет навигацию по страницам приложения
+    ","22808","test_navigation[chromium-press_women_bottoms_button-Bottoms - Women-Bottoms]","tests","Fri Mar 14 19:04:38 UTC 2025","passed","Fri Mar 14 19:05:01 UTC 2025","","test_home_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22513","test_filters[chromium-price_filter_loc-price_20_29_filter_loc-\\$20\\.00 - \\$29\\.99-price=20-30]","tests","Fri Mar 14 19:14:57 UTC 2025","passed","Fri Mar 14 19:15:20 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","21965","test_filters[chromium-style_filter_loc-style_bra_filter_loc-Bra-style_general=130]","tests","Fri Mar 14 19:07:42 UTC 2025","passed","Fri Mar 14 19:08:04 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22253","test_filters[chromium-new_filter_loc-new_yes_filter_loc-Yes-new=1]","tests","Fri Mar 14 19:14:12 UTC 2025","passed","Fri Mar 14 19:14:35 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность сортировки и изменения видимого количества товаров на странице
+    ","24813","test_sorting_and_limiter[chromium-SortOption.PRICE-LimiterOption.SET_36]","tests","Fri Mar 14 19:06:43 UTC 2025","passed","Fri Mar 14 19:07:08 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22281","test_filters[chromium-eco_collection_filter_loc-eco_collection_no_filter_loc-No-eco_collection=0]","tests","Fri Mar 14 19:12:13 UTC 2025","passed","Fri Mar 14 19:12:35 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность сортировки и изменения видимого количества товаров на странице
+    ","23530","test_sorting_and_limiter[chromium-SortOption.PRICE-LimiterOption.SET_12]","tests","Fri Mar 14 19:05:55 UTC 2025","passed","Fri Mar 14 19:06:18 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22110","test_filters[chromium-climate_filter_loc-climate_windy_filter_loc-Windy-climate=209]","tests","Fri Mar 14 19:11:21 UTC 2025","passed","Fri Mar 14 19:11:43 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22183","test_filters[chromium-climate_filter_loc-climate_rainy_filter_loc-Rainy-climate=206]","tests","Fri Mar 14 19:10:15 UTC 2025","passed","Fri Mar 14 19:10:37 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22551","test_filters[chromium-category_filter_loc-category_jackets_filter_loc-Jackets-cat=23]","tests","Fri Mar 14 19:09:30 UTC 2025","passed","Fri Mar 14 19:09:52 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22414","test_filters[chromium-category_filter_loc-category_bras_tanks_filter_loc-Bras & Tanks-cat=26]","tests","Fri Mar 14 19:06:17 UTC 2025","passed","Fri Mar 14 19:06:39 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность сортировки и изменения видимого количества товаров на странице
+    ","23069","test_sorting_and_limiter[chromium-SortOption.POSITION-LimiterOption.SET_24]","tests","Fri Mar 14 19:07:31 UTC 2025","passed","Fri Mar 14 19:07:54 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22662","test_filters[chromium-color_filter_loc-color_purple_filter_loc-Purple-color=57]","tests","Fri Mar 14 19:11:49 UTC 2025","passed","Fri Mar 14 19:12:11 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность изменения видимого количества товаров на странице
+    ","23121","test_limiter_items[chromium-LimiterOption.SET_36]","tests","Fri Mar 14 19:05:32 UTC 2025","passed","Fri Mar 14 19:05:55 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22100","test_filters[chromium-material_filter_loc-material_mesh_filter_loc-Mesh-material=36]","tests","Fri Mar 14 19:13:18 UTC 2025","passed","Fri Mar 14 19:13:40 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22099","test_filters[chromium-style_filter_loc-style_windbreaker_filter_loc-Windbreaker-style_general=125]","tests","Fri Mar 14 19:06:12 UTC 2025","passed","Fri Mar 14 19:06:34 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22287","test_filters[chromium-category_filter_loc-category_tees_filter_loc-Tees-cat=25]","tests","Fri Mar 14 19:05:54 UTC 2025","passed","Fri Mar 14 19:06:17 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","21899","test_filters[chromium-eco_collection_filter_loc-eco_collection_yes_filter_loc-Yes-eco_collection=1]","tests","Fri Mar 14 19:11:51 UTC 2025","passed","Fri Mar 14 19:12:13 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22322","test_filters[chromium-color_filter_loc-color_orange_filter_loc-Orange-color=56]","tests","Fri Mar 14 19:11:26 UTC 2025","passed","Fri Mar 14 19:11:48 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет навигацию по страницам приложения
+    ","22975","test_navigation[chromium-press_gear_fitness_equipment_button-Fitness Equipment - Gear-Fitness Equipment]","tests","Fri Mar 14 19:03:05 UTC 2025","passed","Fri Mar 14 19:03:28 UTC 2025","","test_home_page","",""
+"
+    Проверяет валидацию обязательных полей на странице регистрации пользователя
+    ","21078","test_required_fields[chromium]","tests","Fri Mar 14 19:03:19 UTC 2025","passed","Fri Mar 14 19:03:40 UTC 2025","","test_create_account_page","",""
+"
+    Проверяет функциональность сортировки и изменения видимого количества товаров на странице
+    ","22547","test_sorting_and_limiter[chromium-SortOption.POSITION-LimiterOption.SET_12]","tests","Fri Mar 14 19:07:08 UTC 2025","passed","Fri Mar 14 19:07:30 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность изменения вида отображаемых товаров (Grid, List)
+    ","22327","test_list_view[chromium]","tests","Fri Mar 14 19:15:48 UTC 2025","passed","Fri Mar 14 19:16:10 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет навигацию по страницам приложения
+    ","23544","test_navigation[chromium-press_men_bottoms_pants_button-Pants - Bottoms - Men-Pants]","tests","Fri Mar 14 19:05:08 UTC 2025","passed","Fri Mar 14 19:05:32 UTC 2025","","test_home_page","",""
+"
+    Проверяет функциональность изменения видимого количества товаров на странице
+    ","21490","test_limiter_items[chromium-LimiterOption.SET_12]","tests","Fri Mar 14 19:09:46 UTC 2025","passed","Fri Mar 14 19:10:07 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет навигацию по страницам приложения
+    ","23022","test_navigation[chromium-press_gear_bags_button-Bags - Gear-Bags]","tests","Fri Mar 14 19:02:42 UTC 2025","passed","Fri Mar 14 19:03:05 UTC 2025","","test_home_page","",""
+"
+    Проверяет навигацию по страницам приложения
+    ","23748","test_navigation[chromium-press_women_tops_jackets_button-Jackets - Tops - Women-Jackets]","tests","Fri Mar 14 19:03:03 UTC 2025","passed","Fri Mar 14 19:03:27 UTC 2025","","test_home_page","",""
+"
+    Проверяет навигацию по страницам приложения
+    ","51266","test_navigation[chromium-press_sale-Sale-Sale]","tests","Fri Mar 14 19:04:36 UTC 2025","broken","Fri Mar 14 19:05:28 UTC 2025","","test_home_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22263","test_filters[chromium-style_filter_loc-style_pullover_filter_loc-Pullover-style_general=136]","tests","Fri Mar 14 19:09:11 UTC 2025","passed","Fri Mar 14 19:09:33 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет добавление товара в корзину без установленного цвета
+    ","21971","test_adding_product_without_color[chromium]","tests","Fri Mar 14 19:06:56 UTC 2025","passed","Fri Mar 14 19:07:18 UTC 2025","","test_product_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","21664","test_filters[chromium-color_filter_loc-color_brown_filter_loc-Brown-color=51]","tests","Fri Mar 14 19:11:14 UTC 2025","passed","Fri Mar 14 19:11:36 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет попытки аутентификации с корректным email и неверным паролем, и наоборот
+    ","22665","test_unsuccessful_authorization[chromium-testtesttest112@mail.com-qrfqw@1A]","tests","Fri Mar 14 19:04:46 UTC 2025","passed","Fri Mar 14 19:05:09 UTC 2025","","test_customer_login_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22216","test_filters[chromium-material_filter_loc-material_cocona_performance_fabric_filter_loc-Cocona\xae performance fabric-material=142]","tests","Fri Mar 14 19:12:28 UTC 2025","passed","Fri Mar 14 19:12:50 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет навигацию по страницам приложения
+    ","25595","test_navigation[chromium-press_men_tops_jackets_tees_button-Tees - Tops - Men-Tees]","tests","Fri Mar 14 19:03:56 UTC 2025","passed","Fri Mar 14 19:04:21 UTC 2025","","test_home_page","",""
+"
+    Проверяет навигацию по страницам приложения
+    ","22994","test_navigation[chromium-press_women_button-Women-Women]","tests","Fri Mar 14 19:02:17 UTC 2025","passed","Fri Mar 14 19:02:40 UTC 2025","","test_home_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22281","test_filters[chromium-climate_filter_loc-climate_cool_filter_loc-Cool-climate=203]","tests","Fri Mar 14 19:10:44 UTC 2025","passed","Fri Mar 14 19:11:06 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22229","test_filters[chromium-style_filter_loc-style_rain_coat_filter_loc-Rain Coat-style_general=122]","tests","Fri Mar 14 19:08:31 UTC 2025","passed","Fri Mar 14 19:08:53 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет попытку регистрации пользователя с существующим email
+    ","22588","test_same_email_registration[chromium]","tests","Fri Mar 14 19:03:40 UTC 2025","passed","Fri Mar 14 19:04:03 UTC 2025","","test_create_account_page","",""
 "
     Проверяет полный флоу, от добавления товара с продуктовой страницы до успешной оплаты
-    ","31550","test_successful_full_payment_flow[chromium]","tests","Fri Mar 14 18:24:53 UTC 2025","passed","Fri Mar 14 18:25:25 UTC 2025","","test_checkout_page","",""
+    ","35348","test_successful_full_payment_flow[chromium]","tests","Fri Mar 14 19:01:54 UTC 2025","passed","Fri Mar 14 19:02:30 UTC 2025","","test_checkout_page","",""
+"
+    Проверяет навигацию по страницам приложения
+    ","23956","test_navigation[chromium-press_men_tops_jackets_button-Jackets - Tops - Men-Jackets]","tests","Fri Mar 14 19:03:07 UTC 2025","passed","Fri Mar 14 19:03:31 UTC 2025","","test_home_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22407","test_filters[chromium-pattern_filter_loc-pattern_solid_filter_loc-Solid-pattern=196]","tests","Fri Mar 14 19:14:35 UTC 2025","passed","Fri Mar 14 19:14:57 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22491","test_filters[chromium-style_filter_loc-style_soft_shell_filter_loc-Soft Shell-style_general=124]","tests","Fri Mar 14 19:05:50 UTC 2025","passed","Fri Mar 14 19:06:12 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет успешную регистрацию пользователя
+    ","23760","test_successful_registration[chromium]","tests","Fri Mar 14 19:02:55 UTC 2025","passed","Fri Mar 14 19:03:19 UTC 2025","","test_create_account_page","",""
+"
+    Проверяет навигацию по страницам приложения
+    ","23206","test_navigation[chromium-press_men_tops_jackets_tanks_button-Tanks - Tops - Men-Tanks]","tests","Fri Mar 14 19:04:22 UTC 2025","passed","Fri Mar 14 19:04:45 UTC 2025","","test_home_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22171","test_filters[chromium-material_filter_loc-material_evercool_filter_loc-EverCool\u2122-material=152]","tests","Fri Mar 14 19:13:50 UTC 2025","passed","Fri Mar 14 19:14:12 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22140","test_filters[chromium-style_filter_loc-style_lightweight_filter_loc-Lightweight-style_general=119]","tests","Fri Mar 14 19:07:24 UTC 2025","passed","Fri Mar 14 19:07:46 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22165","test_filters[chromium-new_filter_loc-new_no_filter_loc-No-new=0]","tests","Fri Mar 14 19:14:19 UTC 2025","passed","Fri Mar 14 19:14:41 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22335","test_filters[chromium-climate_filter_loc-climate_mild_filter_loc-Mild-climate=205]","tests","Fri Mar 14 19:09:52 UTC 2025","passed","Fri Mar 14 19:10:14 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22804","test_filters[chromium-size_filter_loc-size_m_filter_loc-M-size=168]","tests","Fri Mar 14 19:11:03 UTC 2025","passed","Fri Mar 14 19:11:26 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22563","test_filters[chromium-color_filter_loc-color_gray_filter_loc-Gray-color=52]","tests","Fri Mar 14 19:11:36 UTC 2025","passed","Fri Mar 14 19:11:59 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22281","test_filters[chromium-material_filter_loc-material_nylon_filter_loc-Nylon-material=37]","tests","Fri Mar 14 19:12:58 UTC 2025","passed","Fri Mar 14 19:13:20 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22285","test_filters[chromium-erin_recommends_filter_loc-erin_recommends_no_filter_loc-No-erin_recommends=0]","tests","Fri Mar 14 19:12:06 UTC 2025","passed","Fri Mar 14 19:12:28 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22192","test_filters[chromium-pattern_filter_loc-pattern_color_blocked_filter_loc-Color-Blocked-pattern=194]","tests","Fri Mar 14 19:14:27 UTC 2025","passed","Fri Mar 14 19:14:49 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет навигацию по страницам приложения
+    ","23937","test_navigation[chromium-press_women_tops_hoodies_sweatshirts_button-Hoodies & Sweatshirts - Tops - Women-Hoodies & Sweatshirts]","tests","Fri Mar 14 19:03:27 UTC 2025","passed","Fri Mar 14 19:03:51 UTC 2025","","test_home_page","",""
+"
+    Проверяет функциональность сортировки
+    ","22100","test_sorting[chromium-SortOption.POSITION]","tests","Fri Mar 14 19:09:02 UTC 2025","passed","Fri Mar 14 19:09:24 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность сортировки и изменения видимого количества товаров на странице
+    ","24572","test_sorting_and_limiter[chromium-SortOption.PRICE-LimiterOption.SET_24]","tests","Fri Mar 14 19:06:18 UTC 2025","passed","Fri Mar 14 19:06:43 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22683","test_filters[chromium-color_filter_loc-color_blue_filter_loc-Blue-color=50]","tests","Fri Mar 14 19:10:52 UTC 2025","passed","Fri Mar 14 19:11:14 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22109","test_filters[chromium-material_filter_loc-material_tencel_filter_loc-TENCEL-material=154]","tests","Fri Mar 14 19:13:57 UTC 2025","passed","Fri Mar 14 19:14:19 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22472","test_filters[chromium-style_filter_loc-style_tank_filter_loc-Tank-style_general=134]","tests","Fri Mar 14 19:08:26 UTC 2025","passed","Fri Mar 14 19:08:49 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","21674","test_filters[chromium-style_filter_loc-style_camisole_filter_loc-Camisole-style_general=141]","tests","Fri Mar 14 19:09:56 UTC 2025","passed","Fri Mar 14 19:10:18 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","21794","test_filters[chromium-style_filter_loc-style_hard_shell_filter_loc-Hard Shell-style_general=123]","tests","Fri Mar 14 19:08:53 UTC 2025","passed","Fri Mar 14 19:09:15 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22038","test_filters[chromium-climate_filter_loc-climate_indoor_filter_loc-Indoor-climate=204]","tests","Fri Mar 14 19:11:06 UTC 2025","passed","Fri Mar 14 19:11:28 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","21952","test_filters[chromium-price_filter_loc-price_40_49_filter_loc-\\$40\\.00 - \\$49\\.99-price=40-50]","tests","Fri Mar 14 19:15:09 UTC 2025","passed","Fri Mar 14 19:15:31 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22244","test_filters[chromium-erin_recommends_filter_loc-erin_recommends_yes_filter_loc-Yes-erin_recommends=1]","tests","Fri Mar 14 19:12:36 UTC 2025","passed","Fri Mar 14 19:12:58 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет навигацию по страницам приложения
+    ","25136","test_navigation[chromium-press_women_bottoms_shorts_button-Shorts - Bottoms - Women-Shorts]","tests","Fri Mar 14 19:01:54 UTC 2025","passed","Fri Mar 14 19:02:19 UTC 2025","","test_home_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22246","test_filters[chromium-climate_filter_loc-climate_wintry_filter_loc-Wintry-climate=210]","tests","Fri Mar 14 19:11:43 UTC 2025","passed","Fri Mar 14 19:12:06 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет навигацию по страницам приложения
+    ","24363","test_navigation[chromium-press_men_tops_jackets_hoodies_sweatshirts_button-Hoodies & Sweatshirts - Tops - Men-Hoodies & Sweatshirts]","tests","Fri Mar 14 19:03:31 UTC 2025","passed","Fri Mar 14 19:03:56 UTC 2025","","test_home_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22236","test_filters[chromium-style_filter_loc-style_hooded_filter_loc-Hooded-style_general=120]","tests","Fri Mar 14 19:07:46 UTC 2025","passed","Fri Mar 14 19:08:08 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","21751","test_filters[chromium-price_filter_loc-price_80_above_filter_loc-\\$80\\.00 and above-price=80-]","tests","Fri Mar 14 19:15:31 UTC 2025","passed","Fri Mar 14 19:15:53 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22330","test_filters[chromium-style_filter_loc-style_hoodie_filter_loc-Hoodie-style_general=137]","tests","Fri Mar 14 19:09:34 UTC 2025","passed","Fri Mar 14 19:09:56 UTC 2025","","test_women_tops_page","",""
 "
     Проверяет успешное добавление товара в корзину
-    ","23990","test_positive_adding_product_to_cart[chromium]","tests","Fri Mar 14 18:25:40 UTC 2025","passed","Fri Mar 14 18:26:04 UTC 2025","","test_product_page","",""
+    ","24970","test_positive_adding_product_to_cart[chromium]","tests","Fri Mar 14 19:05:47 UTC 2025","passed","Fri Mar 14 19:06:12 UTC 2025","","test_product_page","",""
+"
+    Проверяет успешную отправку ревью отзыва
+    ","36765","test_sending_review[chromium]","tests","Fri Mar 14 19:07:41 UTC 2025","broken","Fri Mar 14 19:08:18 UTC 2025","","test_product_page","",""
+"
+    Проверяет добавление товара в корзину без установленных параметрах размера и цвета
+    ","22022","test_adding_product_without_size_and_color[chromium]","tests","Fri Mar 14 19:06:12 UTC 2025","passed","Fri Mar 14 19:06:34 UTC 2025","","test_product_page","",""
+"
+    Проверяет успешную аутентификацию
+    ","22214","test_successful_authorization[chromium]","tests","Fri Mar 14 19:04:03 UTC 2025","passed","Fri Mar 14 19:04:25 UTC 2025","","test_customer_login_page","",""
+"
+    Проверяет навигацию по страницам приложения
+    ","22065","test_navigation[chromium-press_create_an_account_button-Create New Customer Account-Create New Customer Account]","tests","Fri Mar 14 19:05:25 UTC 2025","passed","Fri Mar 14 19:05:47 UTC 2025","","test_home_page","",""
+"
+    Проверяет навигацию по страницам приложения
+    ","22970","test_navigation[chromium-press_men_bottoms_button-Bottoms - Men-Bottoms]","tests","Fri Mar 14 19:04:45 UTC 2025","passed","Fri Mar 14 19:05:08 UTC 2025","","test_home_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22424","test_filters[chromium-sale_filter_loc-sale_yes_filter_loc-Yes-sale=1]","tests","Fri Mar 14 19:15:34 UTC 2025","passed","Fri Mar 14 19:15:56 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет навигацию по страницам приложения
+    ","22276","test_navigation[chromium-press_training_button-Training-Training]","tests","Fri Mar 14 19:03:51 UTC 2025","passed","Fri Mar 14 19:04:14 UTC 2025","","test_home_page","",""
+"
+    Проверяет попытки аутентификации с корректным email и неверным паролем, и наоборот
+    ","22480","test_unsuccessful_authorization[chromium-qrfqw@mail.com-werty1@A]","tests","Fri Mar 14 19:05:09 UTC 2025","passed","Fri Mar 14 19:05:31 UTC 2025","","test_customer_login_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22451","test_filters[chromium-performance_fabric_filter_loc-performance_fabric_no_filter_loc-No-performance_fabric=0]","tests","Fri Mar 14 19:14:49 UTC 2025","passed","Fri Mar 14 19:15:11 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22108","test_filters[chromium-material_filter_loc-material_microfiber_filter_loc-Microfiber-material=149]","tests","Fri Mar 14 19:13:20 UTC 2025","passed","Fri Mar 14 19:13:42 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22198","test_filters[chromium-style_filter_loc-style_jacket_filter_loc-Jacket-style_general=117]","tests","Fri Mar 14 19:07:02 UTC 2025","passed","Fri Mar 14 19:07:24 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","21726","test_filters[chromium-material_filter_loc-material_heattec_filter_loc-HeatTec\xae-material=151]","tests","Fri Mar 14 19:13:28 UTC 2025","passed","Fri Mar 14 19:13:50 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22007","test_filters[chromium-climate_filter_loc-climate_cold_filter_loc-Cold-climate=202]","tests","Fri Mar 14 19:10:22 UTC 2025","passed","Fri Mar 14 19:10:44 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет добавление товара в корзину без установленного размера
+    ","21729","test_adding_product_without_size[chromium]","tests","Fri Mar 14 19:06:34 UTC 2025","passed","Fri Mar 14 19:06:56 UTC 2025","","test_product_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22076","test_filters[chromium-material_filter_loc-material_lumatech_filter_loc-LumaTech\u2122-material=147]","tests","Fri Mar 14 19:12:56 UTC 2025","passed","Fri Mar 14 19:13:18 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность сортировки и изменения видимого количества товаров на странице
+    ","23354","test_sorting_and_limiter[chromium-SortOption.PRODUCT_NAME-LimiterOption.SET_12]","tests","Fri Mar 14 19:08:17 UTC 2025","passed","Fri Mar 14 19:08:41 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22285","test_filters[chromium-price_filter_loc-price_30_39_filter_loc-\\$30\\.00 - \\$39\\.99-price=30-40]","tests","Fri Mar 14 19:15:04 UTC 2025","passed","Fri Mar 14 19:15:26 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22697","test_filters[chromium-color_filter_loc-color_yellow_filter_loc-Yellow-color=60]","tests","Fri Mar 14 19:11:28 UTC 2025","passed","Fri Mar 14 19:11:51 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22137","test_filters[chromium-pattern_filter_loc-pattern_striped_filter_loc-Striped-pattern=198]","tests","Fri Mar 14 19:14:42 UTC 2025","passed","Fri Mar 14 19:15:04 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","21905","test_filters[chromium-material_filter_loc-material_organic_cotton_filter_loc-Organic Cotton-material=153]","tests","Fri Mar 14 19:13:42 UTC 2025","passed","Fri Mar 14 19:14:04 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","21851","test_filters[chromium-price_filter_loc-price_70_79_filter_loc-\\$70\\.00 - \\$79\\.99-price=70-80]","tests","Fri Mar 14 19:15:26 UTC 2025","passed","Fri Mar 14 19:15:48 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22170","test_filters[chromium-material_filter_loc-material_spandex_filter_loc-Spandex-material=150]","tests","Fri Mar 14 19:13:35 UTC 2025","passed","Fri Mar 14 19:13:57 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22280","test_filters[chromium-material_filter_loc-material_wool_filter_loc-Wool-material=158]","tests","Fri Mar 14 19:14:04 UTC 2025","passed","Fri Mar 14 19:14:27 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22090","test_filters[chromium-price_filter_loc-price_60_69_filter_loc-\\$60\\.00 - \\$69\\.99-price=60-70]","tests","Fri Mar 14 19:15:20 UTC 2025","passed","Fri Mar 14 19:15:42 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22476","test_filters[chromium-style_filter_loc-style_sweatshirt_filter_loc-Sweatshirt-style_general=132]","tests","Fri Mar 14 19:08:04 UTC 2025","passed","Fri Mar 14 19:08:26 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет навигацию по страницам приложения
+    ","23139","test_navigation[chromium-press_men_button-Men-Men]","tests","Fri Mar 14 19:02:19 UTC 2025","passed","Fri Mar 14 19:02:42 UTC 2025","","test_home_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22431","test_filters[chromium-price_filter_loc-price_50_59_filter_loc-\\$50\\.00 - \\$59\\.99-price=50-60]","tests","Fri Mar 14 19:15:11 UTC 2025","passed","Fri Mar 14 19:15:34 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","21848","test_filters[chromium-climate_filter_loc-climate_warm_filter_loc-Warm-climate=208]","tests","Fri Mar 14 19:10:59 UTC 2025","passed","Fri Mar 14 19:11:21 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность сортировки
+    ","21772","test_sorting[chromium-SortOption.PRODUCT_NAME]","tests","Fri Mar 14 19:09:24 UTC 2025","passed","Fri Mar 14 19:09:46 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22153","test_filters[chromium-material_filter_loc-material_lycra_filter_loc-Lycra\xae-material=148]","tests","Fri Mar 14 19:13:40 UTC 2025","passed","Fri Mar 14 19:14:03 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22007","test_filters[chromium-material_filter_loc-material_fleece_filter_loc-Fleece-material=144]","tests","Fri Mar 14 19:12:21 UTC 2025","passed","Fri Mar 14 19:12:43 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22015","test_filters[chromium-material_filter_loc-material_hemp_filter_loc-Hemp-material=145]","tests","Fri Mar 14 19:12:43 UTC 2025","passed","Fri Mar 14 19:13:05 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность изменения видимого количества товаров на странице
+    ","21557","test_limiter_items[chromium-LimiterOption.SET_24]","tests","Fri Mar 14 19:10:07 UTC 2025","passed","Fri Mar 14 19:10:29 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет навигацию по страницам приложения
+    ","23166","test_navigation[chromium-press_whats_new_button-What's New-What's New]","tests","Fri Mar 14 19:01:54 UTC 2025","passed","Fri Mar 14 19:02:17 UTC 2025","","test_home_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22439","test_filters[chromium-sale_filter_loc-sale_no_filter_loc-No-sale=0]","tests","Fri Mar 14 19:15:42 UTC 2025","passed","Fri Mar 14 19:16:04 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет обязательные поля в разделе ревью
+    ","21870","test_sending_review_without_required_fields[chromium]","tests","Fri Mar 14 19:08:18 UTC 2025","passed","Fri Mar 14 19:08:40 UTC 2025","","test_product_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22401","test_filters[chromium-style_filter_loc-style_full_zip_filter_loc-Full Zip-style_general=128]","tests","Fri Mar 14 19:06:57 UTC 2025","passed","Fri Mar 14 19:07:19 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22366","test_filters[chromium-climate_filter_loc-climate_spring_filter_loc-Spring-climate=207]","tests","Fri Mar 14 19:10:37 UTC 2025","passed","Fri Mar 14 19:10:59 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность сортировки и изменения видимого количества товаров на странице
+    ","23484","test_sorting_and_limiter[chromium-SortOption.POSITION-LimiterOption.SET_36]","tests","Fri Mar 14 19:07:54 UTC 2025","passed","Fri Mar 14 19:08:17 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22189","test_filters[chromium-material_filter_loc-material_cotton_filter_loc-Cotton-material=33]","tests","Fri Mar 14 19:12:50 UTC 2025","passed","Fri Mar 14 19:13:12 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет навигацию по страницам приложения
+    ","22585","test_navigation[chromium-press_women_tops_button-Tops - Women-Tops]","tests","Fri Mar 14 19:02:40 UTC 2025","passed","Fri Mar 14 19:03:03 UTC 2025","","test_home_page","",""
+"
+    Проверяет успешное добавление товара в корзину с продуктовой страницы
+    ","24499","test_full_flow_adding_goods[chromium]","tests","Fri Mar 14 19:15:53 UTC 2025","passed","Fri Mar 14 19:16:18 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет функциональность фильтрации товаров
+    ","22764","test_filters[chromium-size_filter_loc-size_xl_filter_loc-XL-size=170]","tests","Fri Mar 14 19:09:37 UTC 2025","passed","Fri Mar 14 19:10:00 UTC 2025","","test_women_tops_page","",""
