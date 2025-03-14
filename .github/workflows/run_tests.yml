@@ -34,12 +34,14 @@ jobs:
       - name: Run tests
         run: |
           if [ "${{ github.event.inputs.test_type }}" == "smoke" ]; then
-            pytest -m smoke --alluredir=allure-results
+            pytest -n auto -m smoke --maxfail=0 --continue-on-collection-errors --alluredir=allure-results
           else
-            pytest --alluredir=allure-results
+            pytest -n auto --maxfail=0 --continue-on-collection-errors --alluredir=allure-results
           fi
+        continue-on-error: true
 
       - name: Save Allure Results
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: allure-results

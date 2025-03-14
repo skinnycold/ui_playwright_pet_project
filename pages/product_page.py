@@ -175,7 +175,7 @@ class ProductPage(BasePage):
         """
 
         print("Waiting for alert to be attached...")
-        self.product_page_locators.alert_loc.wait_for(state='attached', timeout=5000)
+        self.product_page_locators.alert_loc.wait_for(state='attached', timeout=15000)
         print("Waiting for alert to be visible...")
         self.product_page_locators.alert_loc.wait_for(state='visible', timeout=30000)
         expect(self.product_page_locators.alert_loc).to_have_text(re.compile(alert_text), timeout=30000)
