@@ -15,6 +15,8 @@ pyee==12.1.1
 pytest==8.3.4
 pytest-base-url==2.1.0
 pytest-playwright==0.7.0
+pytest-repeat==0.9.3
+pytest-rerunfailures==15.0
 pytest-xdist==3.6.1
 python-slugify==8.0.4
 requests==2.32.3
