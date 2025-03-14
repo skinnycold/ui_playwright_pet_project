@@ -25,11 +25,11 @@ def test_required_fields(create_account_page):
     """
     create_account_page.open()
     create_account_page.agree_cookie()
-    create_account_page.fill_first_name_field('')
-    create_account_page.fill_last_name_field('')
-    create_account_page.fill_email_field('')
-    create_account_page.fill_password_field('')
-    create_account_page.fill_confirm_password_field('')
+    create_account_page.fill_first_name_field(' ')
+    create_account_page.fill_last_name_field(' ')
+    create_account_page.fill_email_field(' ')
+    create_account_page.fill_password_field(' ')
+    create_account_page.fill_confirm_password_field(' ')
     create_account_page.press_create_an_account_button()
     create_account_page.check_required_field()
 
