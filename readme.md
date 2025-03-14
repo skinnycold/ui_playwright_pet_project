@@ -52,4 +52,4 @@
 
 ### Дополнительно
 * Параллельное выполнение тестов: включено с флагом -n auto
-* Aure-отчёт загружается в GitHub Pages после выполнения тестов
+* Aure-отчёт загружается в GitHub Pages после выполнения тестов - https://skinnycold.github.io/ui_playwright_pet_project/
