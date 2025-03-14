@@ -1,46 +1,46 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
 "
-    Проверяет валидацию обязательных полей на странице оплаты
-    ","24968","test_required_fields[chromium]","tests","Fri Mar 14 19:42:44 UTC 2025","passed","Fri Mar 14 19:43:09 UTC 2025","","test_checkout_page","",""
-"
-    Проверяет успешное добавление товара в корзину
-    ","24513","test_positive_adding_product_to_cart[chromium]","tests","Fri Mar 14 19:42:52 UTC 2025","passed","Fri Mar 14 19:43:17 UTC 2025","","test_product_page","",""
-"
-    Проверяет успешную аутентификацию
-    ","22555","test_successful_authorization[chromium]","tests","Fri Mar 14 19:42:29 UTC 2025","passed","Fri Mar 14 19:42:52 UTC 2025","","test_customer_login_page","",""
-"
-    Проверяет попытки аутентификации с корректным email и неверным паролем, и наоборот
-    ","22276","test_unsuccessful_authorization[chromium-qrfqw@mail.com-werty1@A]","tests","Fri Mar 14 19:42:51 UTC 2025","passed","Fri Mar 14 19:43:13 UTC 2025","","test_customer_login_page","",""
-"
-    Проверяет успешную отправку ревью отзыва
-    ","36556","test_sending_review[chromium]","tests","Fri Mar 14 19:43:13 UTC 2025","broken","Fri Mar 14 19:43:50 UTC 2025","","test_product_page","",""
-"
-    Проверяет обязательные поля в разделе ревью
-    ","22005","test_sending_review_without_required_fields[chromium]","tests","Fri Mar 14 19:43:17 UTC 2025","passed","Fri Mar 14 19:43:39 UTC 2025","","test_product_page","",""
-"
-    Проверяет добавление товара в раздел сравнения товаров
-    ","22831","test_adding_product_to_compare[chromium]","tests","Fri Mar 14 19:43:09 UTC 2025","passed","Fri Mar 14 19:43:32 UTC 2025","","test_product_page","",""
-"
-    Проверяет попытку регистрации пользователя с существующим email
-    ","23177","test_same_email_registration[chromium]","tests","Fri Mar 14 19:42:06 UTC 2025","passed","Fri Mar 14 19:42:29 UTC 2025","","test_create_account_page","",""
-"
     Проверяет валидацию обязательных полей на странице регистрации пользователя
-    ","21321","test_required_fields[chromium]","tests","Fri Mar 14 19:42:31 UTC 2025","passed","Fri Mar 14 19:42:52 UTC 2025","","test_create_account_page","",""
+    ","21184","test_required_fields[chromium]","tests","Fri Mar 14 20:20:22 UTC 2025","passed","Fri Mar 14 20:20:43 UTC 2025","","test_create_account_page","",""
 "
-    Проверяет успешную регистрацию пользователя
-    ","24696","test_successful_registration[chromium]","tests","Fri Mar 14 19:42:06 UTC 2025","passed","Fri Mar 14 19:42:31 UTC 2025","","test_create_account_page","",""
-"
-    Проверяет добавление товара в корзину без установленных параметрах размера и цвета
-    ","22160","test_adding_product_without_size_and_color[chromium]","tests","Fri Mar 14 19:42:52 UTC 2025","passed","Fri Mar 14 19:43:14 UTC 2025","","test_product_page","",""
-"
-    Проверяет валидацию обязательных полей на странице аутентификации
-    ","22172","test_required_fields[chromium]","tests","Fri Mar 14 19:42:06 UTC 2025","passed","Fri Mar 14 19:42:28 UTC 2025","","test_customer_login_page","",""
-"
-    Проверяет успешное добавление товара в корзину с продуктовой страницы
-    ","23373","test_full_flow_adding_goods[chromium]","tests","Fri Mar 14 19:43:14 UTC 2025","passed","Fri Mar 14 19:43:38 UTC 2025","","test_women_tops_page","",""
+    Проверяет валидацию обязательных полей на странице оплаты
+    ","25881","test_required_fields[chromium]","tests","Fri Mar 14 20:20:31 UTC 2025","passed","Fri Mar 14 20:20:57 UTC 2025","","test_checkout_page","",""
 "
     Проверяет полный флоу, от добавления товара с продуктовой страницы до успешной оплаты
-    ","37667","test_successful_full_payment_flow[chromium]","tests","Fri Mar 14 19:42:06 UTC 2025","passed","Fri Mar 14 19:42:44 UTC 2025","","test_checkout_page","",""
+    ","33602","test_successful_full_payment_flow[chromium]","tests","Fri Mar 14 20:19:57 UTC 2025","passed","Fri Mar 14 20:20:31 UTC 2025","","test_checkout_page","",""
 "
     Проверяет попытки аутентификации с корректным email и неверным паролем, и наоборот
-    ","22516","test_unsuccessful_authorization[chromium-testtesttest112@mail.com-qrfqw@1A]","tests","Fri Mar 14 19:42:28 UTC 2025","passed","Fri Mar 14 19:42:51 UTC 2025","","test_customer_login_page","",""
+    ","22516","test_unsuccessful_authorization[chromium-testtesttest112@mail.com-qrfqw@1A]","tests","Fri Mar 14 20:20:19 UTC 2025","passed","Fri Mar 14 20:20:41 UTC 2025","","test_customer_login_page","",""
+"
+    Проверяет валидацию обязательных полей на странице аутентификации
+    ","21594","test_required_fields[chromium]","tests","Fri Mar 14 20:19:57 UTC 2025","passed","Fri Mar 14 20:20:19 UTC 2025","","test_customer_login_page","",""
+"
+    Проверяет обязательные поля в разделе ревью
+    ","21530","test_sending_review_without_required_fields[chromium]","tests","Fri Mar 14 20:21:06 UTC 2025","passed","Fri Mar 14 20:21:28 UTC 2025","","test_product_page","",""
+"
+    Проверяет попытку регистрации пользователя с существующим email
+    ","23207","test_same_email_registration[chromium]","tests","Fri Mar 14 20:19:57 UTC 2025","passed","Fri Mar 14 20:20:20 UTC 2025","","test_create_account_page","",""
+"
+    Проверяет успешное добавление товара в корзину с продуктовой страницы
+    ","23160","test_full_flow_adding_goods[chromium]","tests","Fri Mar 14 20:21:05 UTC 2025","passed","Fri Mar 14 20:21:28 UTC 2025","","test_women_tops_page","",""
+"
+    Проверяет успешное добавление товара в корзину
+    ","23546","test_positive_adding_product_to_cart[chromium]","tests","Fri Mar 14 20:20:43 UTC 2025","passed","Fri Mar 14 20:21:06 UTC 2025","","test_product_page","",""
+"
+    Проверяет добавление товара в раздел сравнения товаров
+    ","22715","test_adding_product_to_compare[chromium]","tests","Fri Mar 14 20:20:57 UTC 2025","passed","Fri Mar 14 20:21:19 UTC 2025","","test_product_page","",""
+"
+    Проверяет попытки аутентификации с корректным email и неверным паролем, и наоборот
+    ","22427","test_unsuccessful_authorization[chromium-qrfqw@mail.com-werty1@A]","tests","Fri Mar 14 20:20:41 UTC 2025","passed","Fri Mar 14 20:21:04 UTC 2025","","test_customer_login_page","",""
+"
+    Проверяет добавление товара в корзину без установленных параметрах размера и цвета
+    ","21882","test_adding_product_without_size_and_color[chromium]","tests","Fri Mar 14 20:20:43 UTC 2025","passed","Fri Mar 14 20:21:05 UTC 2025","","test_product_page","",""
+"
+    Проверяет успешную отправку ревью отзыва
+    ","51674","test_sending_review[chromium]","tests","Fri Mar 14 20:21:04 UTC 2025","failed","Fri Mar 14 20:21:56 UTC 2025","","test_product_page","",""
+"
+    Проверяет успешную аутентификацию
+    ","22278","test_successful_authorization[chromium]","tests","Fri Mar 14 20:20:20 UTC 2025","passed","Fri Mar 14 20:20:43 UTC 2025","","test_customer_login_page","",""
+"
+    Проверяет успешную регистрацию пользователя
+    ","24618","test_successful_registration[chromium]","tests","Fri Mar 14 20:19:57 UTC 2025","passed","Fri Mar 14 20:20:22 UTC 2025","","test_create_account_page","",""
